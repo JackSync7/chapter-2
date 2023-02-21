@@ -1,0 +1,80 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+form{
+    width: 350px;
+    margin: 50px auto;
+    padding: 10px;
+    
+}
+
+form div{
+    margin-top: 10px;
+    
+}
+
+label{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+input, select, textarea{
+    
+    padding: 10px;
+    margin-top: 5px;
+    width: 100%;
+    border: 1px solid rgb(169, 169, 169);
+    border-radius: 5px;
+}
+button{
+    background-color: orange;
+    color:white;
+    padding: 6px 25px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+}
+textarea{
+    resize: none;
+}
+
+.nav-left{
+background-color: white;
+
+}
+.nav-left a{
+    background-color: white;
+    text-decoration: none;
+    }
+
+.nav-left ul{
+display: flex;
+list-style-type: none;
+}
+
+.nav-left ul li{
+    margin-right:  15px;
+    }
+
+.nav-right{
+
+
+text-align: end;
+
+
+}
+
+.nav-right a{
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    text-align: end;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px;
+    }
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
